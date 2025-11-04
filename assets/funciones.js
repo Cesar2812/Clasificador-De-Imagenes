@@ -12,7 +12,7 @@ var modelo = null;
 //cargando modelo json
 (async () => {
   console.log("Cargando modelo...");
-  modelo = await tf.loadLayersModel("/assets/resources/model.json");
+  modelo = await tf.loadLayersModel("https://cesar2812.github.io/Clasificador-De-Imagenes/assets/resources/model.json");
   console.log("Modelo cargado");
 })();
 
